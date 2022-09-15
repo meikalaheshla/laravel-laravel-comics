@@ -1,0 +1,11 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.button-primary {
+    background-color: $dc_primary;
+    color: $primary_button_txt_color;
+    text-align: center;
+    border: none;
+}
