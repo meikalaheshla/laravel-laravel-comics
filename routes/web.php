@@ -34,6 +34,9 @@ Route::get('/movies', function () {
 
 Route::get('/comic/{id}', function ($id) {
 $comics = config('comics');
+if(!is_numeric($id) || $id < 0 || $id >= count($comics)){
+abort(404);
+}
 $comic = $comics[$id];
     return view('comic', compact('comic'));
 })->name('comic');

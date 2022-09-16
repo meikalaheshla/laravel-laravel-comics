@@ -9,7 +9,7 @@
                 @foreach ($comics as $comic)
                 <div  class="comic-col">
                     <div class="comic-card">
-                        <a href="{{route('comic')}}">
+                        <a href="{{route('comic', ['id' => $loop -> index])}}">
 
                             <figure>
                                 
