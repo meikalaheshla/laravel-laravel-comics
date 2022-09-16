@@ -23,7 +23,7 @@
                         <div class="links-list-box">
                             <h3>DC</h3>
                             <ul>
-                                <li><a href="#">Terns Of Use</a></li>
+                                <li><a href="#">Terms Of Use</a></li>
                                 <li><a href="#">Privacy policy(New)</a></li>
                                 <li><a href="#">Ad choices</a></li>
                                 <li><a href="#">Advertising</a></li>
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <figure><img src="../assets/img/dc-logo-bg.png" alt=""></figure>
+                        <figure><img src="{{asset('images/dc-logo-bg.png')}}" alt=""></figure>
                     </div>
                 </div>
 
@@ -61,11 +61,11 @@
                     </div>
                     <div class="social-links">
                         <a id="follow-us-link" href="#">FOLOOW US</a>
-                        <a href="#"><img src="../assets/img/footer-facebook.png" alt="facebook"></a>
-                        <a href="#"><img src="../assets/img/footer-twitter.png" alt="twitter"></a>
-                        <a href="#"><img src="../assets/img/footer-youtube.png" alt="youtube"></a>
-                        <a href="#"><img src="../assets/img/footer-pinterest.png" alt="pinterest"></a>
-                        <a href="#"><img src="../assets/img/footer-periscope.png" alt="periscope"></a>
+                        <a href="#"><img src="{{asset('images/footer-facebook.png')}}" alt="facebook"></a>
+                        <a href="#"><img src="{{asset('images/footer-twitter.png')}}" alt="twitter"></a>
+                        <a href="#"><img src="{{asset('images/footer-youtube.png')}}" alt="youtube"></a>
+                        <a href="#"><img src="{{asset('images/footer-pinterest.png')}}" alt="pinterest"></a>
+                        <a href="#"><img src="{{asset('images/footer-periscope.png')}}" alt="periscope"></a>
 
 
                     </div>

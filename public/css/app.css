@@ -66,7 +66,7 @@ header .header-links a:hover, header .header-links a.active {
 
 #top-footer {
   height: 400px;
-  background-image: url("..//images/footer-bg.jpg");
+  background-image: url("../images/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -142,4 +142,10 @@ header .header-links a:hover, header .header-links a.active {
   color: #3382f9;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+#jumbotron {
+  background-image: url("../images/jumbotron.jpg");
+  height: 400px;
+  background-size: cover;
 }

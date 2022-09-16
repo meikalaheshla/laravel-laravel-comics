@@ -17,6 +17,8 @@
 </head>
 <body>
     @include('includes.header')
+    @include('includes.jumbotron')
+    @include('includes.card_box')
     @include('includes.footer')
     
 </body>
