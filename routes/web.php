@@ -12,6 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function () {
+    return view('home');
+})->name('home');
 
 Route::get('/comics', function () {
     $comics = config('comics');
@@ -28,3 +31,9 @@ Route::get('/characters', function () {
 Route::get('/movies', function () {
     return view('movies');
 })->name('movies');
+
+Route::get('/comic/{id}', function ($id) {
+$comics = config('comics');
+$comic = $comics[$id];
+    return view('comic', compact('comic'));
+})->name('comic');
