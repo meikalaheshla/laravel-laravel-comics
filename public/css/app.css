@@ -28,6 +28,11 @@ a {
   margin: 0 auto;
 }
 
+.small-container {
+  width: 900px;
+  margin: 0 auto;
+}
+
 .button-primary {
   background-color: #3382f9;
   color: #fff;
