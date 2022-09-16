@@ -35,3 +35,38 @@ a {
   border: none;
 }
 
+header {
+  margin-top: 41px;
+  background-color: white;
+}
+
+header .header-wrapper {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header-wrapper .logo {
+  height: 80px;
+}
+
+header .header-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 1.1rem;
+}
+
+header .header-links a {
+  display: block;
+  height: 120px;
+  line-height: 120px;
+}
+
+header .header-links a:hover,
+header .header-links a.active {
+  border-bottom: 4px solid #3382f9;
+  color: #3382f9;
+}
+
