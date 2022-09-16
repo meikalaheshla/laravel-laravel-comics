@@ -7,9 +7,9 @@
                 <nav>
                     <ul class="header-links">
                         
-                       <li><a href="" class="">Characters</a></li>
+                       <li><a href="{{url('/characters')}}" class="">Characters</a></li>
                        <li><a href="{{url('/comics')}}" class="active">Comics</a></li>
-                       <li><a href="" class="">Movies</a></li>
+                       <li><a href="{{url('/movies')}}" class="">Movies</a></li>
                        <li><a href="" class="">TV</a></li>
                        <li><a href="" class="">Games</a></li>
                        <li><a href="" class="">Collectibles</a></li>
