@@ -1,0 +1,103 @@
+// TOP FOOTER
+
+
+#top-footer {
+    height: 400px;
+    background-image: url('..//images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: $main_txt_color;
+
+    // TOP FOOTER LAYOUT
+
+}
+
+#top-footer .row {
+    display: flex;
+    height: 100%;
+
+}
+
+
+#top-footer .col {
+    width: calc(100% / 2);
+}
+
+// TOP FOOTER LEFT SIDE
+
+#top-footer .footer-links {
+    display: flex;
+    padding: 40px 0;
+    gap: 20px;
+
+}
+
+#top-footer h3 {
+    margin-bottom: 20px;
+}
+
+#top-footer ul {
+    margin-bottom: 20px;
+
+}
+
+#top-footer a {
+    color: $footer_link_color;
+    font-size: 0.8rem;
+}
+
+
+// TOP FOOTER RIGHT SIDE
+
+#top-footer figure {
+    height: 100%;
+}
+
+#top-footer img {
+    object-position: 0 -95px;
+
+}
+
+
+// BOTTOM FOOTER
+
+#bottom-footer {
+    // to remove
+    height: 100px;
+
+    background-color: $bot_footer_bg_color;
+    padding: 20px;
+}
+
+// BOTTOM FOOTER LAYOUT
+#bottom-footer .bot-footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// BOTTOM FOOTER BUTTONS SECTION
+
+#bottom-footer #sign-up-button {
+    padding: 12px 15px;
+    background-color: inherit;
+    color: $main_txt_color;
+    font-weight: 400;
+    font-size: 1.1rem;
+    border: 2px solid $dc_primary;
+    cursor: pointer;
+}
+
+// BOTTOM FOOTER SOCIAL LINK SECTION
+#bottom-footer .social-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#bottom-footer #follow-us-link {
+    color: $dc_primary ;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
