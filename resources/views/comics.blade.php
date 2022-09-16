@@ -11,7 +11,7 @@
                     <div class="comic-card">
                         <figure>
                             
-                            <img :src="{{$comic['thumb']}}" :alt="{{$comic['title']}}">
+                            <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
                         </figure>
                         <span>{{ $comic['type'] }}</span>
                     </div>
